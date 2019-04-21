@@ -5,10 +5,9 @@ body {
 }
 
 .music {
-  width: 300px;
-  height: 250px;
-  margin-left: 20%;
-  margin-top: 10px;
+  width: 320px;
+  height: 180px;
+  float: right;
   border: 4px solid #05040b;
 }
 
@@ -17,6 +16,12 @@ body {
   margin-top: 2%;
 }
 
+.one {
+  width: 320px;
+  height: 180px;
+  margin-right: 82%;
+  margin-top:25%;
+}
 /*.roma {
 
 }*/
