@@ -18,24 +18,29 @@ body {
 
 .one {
 margin-right:1%;
-margin-top:10%;
+margin-top:40%;
+position:absolute; left: 73%;
 }
 
 .two {
-margin-right:20%;
-margin-top:20%;
+margin-right:1%;
+margin-top:40%;
+position:absolute; left: 56%;
 }
 .three {
-  margin-right:30%;
-  margin-top:30%;
+  margin-right:1%;
+  margin-top:40%;
+  position:absolute; left: 39%;
 }
 .four {
-  margin-right:30%;
-  margin-top:30%;
+  margin-right:1%;
+  margin-top:40%;
+  position:absolute; left: 22%;
 }
 .five {
-  margin-right:30%;
-  margin-top:30%;
+  margin-right:1%;
+  margin-top:40%;
+  position:absolute; left: 5%;
 }
 
 
