@@ -11,7 +11,8 @@ body {    /* Задаю изначальные параметры для вех 
   width: 220px;
   height: 140px;
   float: right;
-  border: 4px solid #05040b;
+  border: 5px solid #05040b;
+  border-radius: 6px;
 }
 
 .lofi_logo {    /* Двигаю надпись "Lofi" */
@@ -61,6 +62,11 @@ position:absolute; left: 56%;
 .arr {  /* Двигаю картинку маленькой стрелочки вниз */
   position: absolute; top: 45%;
   position: absolute; left: 5.5%;
+}
+
+.button1{ /* перемещаю кнопочку1 */
+  margin-top:10%;
+  position:absolute; left: 1%;
 }
 
 p {     /* Задал шрифт абзацам */
