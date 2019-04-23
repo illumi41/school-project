@@ -2,6 +2,9 @@ body {
   background-image: url("images/baackground.gif");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-color: #05040b;
+  margin: 0;
+
 }
 
 .music {
@@ -43,8 +46,30 @@ position:absolute; left: 56%;
   position:absolute; left: 5%;
 }
 
-
+.text{
+  color: #666699;
+  font-size: 120%;
+  position: absolute; top: 110%;
+  margin-left: 2%;
 }
-/*.roma {
 
-}*/
+.his {
+  position: absolute; top: 90%;
+  position: absolute; left: 8px;
+}
+
+.arr {
+  position: absolute; top: 45%;
+  position: absolute; left: 5.5%;
+}
+
+p {
+  font-family: "Segoe Print";
+}
+
+@font-face {
+  font-family: "Segoe Print";
+  src: url("fonts/15695.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
