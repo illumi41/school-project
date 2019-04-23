@@ -1,4 +1,4 @@
-body {
+body {    /* Задаю изначальные параметры для вех элементов сайта и фона */
   background-image: url("images/baackground.gif");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -7,67 +7,67 @@ body {
 
 }
 
-.music {
+.music {    /* Задаю общие параметры для музыки */
   width: 220px;
   height: 140px;
   float: right;
   border: 4px solid #05040b;
 }
 
-.lofi_logo {
+.lofi_logo {    /* Двигаю надпись "Lofi" */
   margin-left: 5%;
   margin-top: 2%;
 }
 
-.one {
+.one {    /* Перемещаю первую песню */
 margin-right:1%;
 margin-top:40%;
 position:absolute; left: 73%;
 }
 
-.two {
+.two {    /* Перемещаю вторую песню */
 margin-right:1%;
 margin-top:40%;
 position:absolute; left: 56%;
 }
-.three {
+.three {    /* Перемещаю третью песню */
   margin-right:1%;
   margin-top:40%;
   position:absolute; left: 39%;
 }
-.four {
+.four {   /* Перемещаю четвертую песню */
   margin-right:1%;
   margin-top:40%;
   position:absolute; left: 22%;
 }
-.five {
+.five {   /* Перемещаю пятую песню */
   margin-right:1%;
   margin-top:40%;
   position:absolute; left: 5%;
 }
 
-.text{
+.text{    /* Двигаю текст вниз и задаю ему размер, цвет */
   color: #666699;
   font-size: 120%;
   position: absolute; top: 110%;
   margin-left: 2%;
 }
 
-.his {
+.his {    /* Двигаю надпись "История создания жанра" вниз */
   position: absolute; top: 90%;
   position: absolute; left: 8px;
 }
 
-.arr {
+.arr {  /* Двигаю картинку маленькой стрелочки вниз */
   position: absolute; top: 45%;
   position: absolute; left: 5.5%;
 }
 
-p {
+p {     /* Задал шрифт абзацам */
   font-family: "Segoe Print";
 }
 
-@font-face {
+@font-face { /* Подключил шрифт и установил стандартные значения */
   font-family: "Segoe Print";
   src: url("fonts/15695.ttf") format("truetype");
   font-style: normal;
