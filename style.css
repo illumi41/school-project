@@ -47,6 +47,16 @@ position:absolute; left: 56%;
   position:absolute; left: 5%;
 }
 
+#sc {
+  position: absolute; right: 3%;
+  position: absolute; top: 90px;
+}
+
+#yt{
+  position: absolute; right: 3%;
+  position: absolute; top: 210px;
+}
+
 .text{    /* Двигаю текст вниз и задаю ему размер, цвет */
   color: #666699;
   font-size: 120%;
