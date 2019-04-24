@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {    /* Задаю изначальные параметры для вех элементов сайта и фона */
   background-image: url("images/baackground.gif");
   background-repeat: no-repeat;
