@@ -55,18 +55,19 @@ position:absolute; left: 56%;
 }
 
 .his {    /* Двигаю надпись "История создания жанра" вниз */
-  position: absolute; top: 90%;
+  position: absolute; top: 101%;
   position: absolute; left: 8px;
 }
 
 .arr {  /* Двигаю картинку маленькой стрелочки вниз */
-  position: absolute; top: 45%;
-  position: absolute; left: 5.5%;
+  position: absolute; top: 57%;
+  position: absolute; left: 21%;
 }
 
 .button1{ /* перемещаю кнопочку1 */
-  margin-top:10%;
+  margin-top:11%;
   position:absolute; left: 1%;
+
 }
 
 p {     /* Задал шрифт абзацам */
