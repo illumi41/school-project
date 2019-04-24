@@ -9,7 +9,15 @@ body {    /* Задаю изначальные параметры для вех 
   background-size: 100%;
   background-color: #05040b;
   margin: 0;
+}
 
+#footer {
+  position: absolute; bottom: 0%;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  background: #ffffff;
+  width: 100%
 }
 
 .music {    /* Задаю общие параметры для музыки */
