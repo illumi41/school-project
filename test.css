@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+  img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {    /* Задаю изначальные параметры для вех элементов сайта и фона */
+  background-image: url("images/baackground.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #05040b;
+  margin: 0;
+}
+
+#Block_1{
+  height:50%;
+  width:27%;
+  position: absolute;
+  left: ;
+  word-wrap: break-word;
+  border: 4px outset;
+  border-color: red;
+}
+
+#Block_2{
+  height:50%;
+  width:5%;
+  position: absolute;
+  word-wrap: break-word;
+  border: 4px outset;
+  right: 4%;
+}
+
+#Block_3{
+  height:;
+  width:;
+  position: absolute;
+  right: ;
+  word-wrap: break-word;
+  border: 4px outset;
+}
+
+#sc {
+  position: absolute; right: 3%;
+  position: absolute; top: 0%;
+    border: 4px outset;
+}
+
+#yt{
+  position: absolute; right: 3%;
+  position: absolute; top: 100%;
+  border: 4px outset;
+}
+
+.lofi_logo {    /* Двигаю надпись "Lofi" */
+  position: relative;
+  width: 50%;
+  height: 20%;
+  border: 4px outset;
+}
+
+.button1{ /* перемещаю кнопочку1 */
+  width: 97.5%;
+  height: 14%;
+  position: relative;
+  display: block;
+  text-align: center;
+  left: 0%;
+  margin-top: 15%;
+  border: 4px outset;
+}
+
+p {     /* Задал шрифт абзацам */
+  font-family: "Segoe Print";
+}
+
+@font-face { /* Подключил шрифт и установил стандартные значения */
+  font-family: "Segoe Print";
+  src: url("fonts/15695.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.text{    /* Двигаю текст вниз и задаю ему размер, цвет */
+  color: #666699;
+  font-size: 120%;
+  position: absolute; top: 110%;
+  margin-left: 2%;
+}

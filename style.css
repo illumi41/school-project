@@ -12,14 +12,38 @@ body {    /* Задаю изначальные параметры для вех 
 }
 
 #footer {
-  position: absolute; bottom: 0%;
+  position: absolute;
+  bottom: 0%;
   left: 0;
   bottom: 0;
   padding: 10px;
   background: #ffffff;
-  width: 100%
+  width: 100%;
 }
 
+#Block_1{
+  height:40%;
+  width:27%;
+  position: absolute;
+  left: ;
+  border: 4px outset;
+}
+#Block_2{
+  height:;
+  width:;
+  position: absolute;
+  left: ;
+  word-wrap: break-word;
+  border: 4px outset;
+}
+#Block_3{
+  height:;
+  width:;
+  position: absolute;
+  right: ;
+  word-wrap: break-word;
+  border: 4px outset;
+}
 .music {    /* Задаю общие параметры для музыки */
   width: 220px;
   height: 140px;
@@ -29,8 +53,9 @@ body {    /* Задаю изначальные параметры для вех 
 }
 
 .lofi_logo {    /* Двигаю надпись "Lofi" */
-  margin-left: 5%;
-  margin-top: 2%;
+  border: 4px outset;
+  position: static;
+  text-align: center;
 }
 
 .one {    /* Перемещаю первую песню */
@@ -70,27 +95,19 @@ position:absolute; left: 56%;
   position: absolute; top: 210px;
 }
 
-.text{    /* Двигаю текст вниз и задаю ему размер, цвет */
-  color: #666699;
-  font-size: 120%;
-  position: absolute; top: 110%;
-  margin-left: 2%;
-}
-
 .his {    /* Двигаю надпись "История создания жанра" вниз */
   position: absolute; top: 101%;
   position: absolute; left: 8px;
 }
 
-.arr {  /* Двигаю картинку маленькой стрелочки вниз */
-  position: absolute; top: 57%;
-  position: absolute; left: 21%;
-}
-
 .button1{ /* перемещаю кнопочку1 */
-  margin-top:11%;
-  position:absolute; left: 1%;
-
+  width: 99%;
+  height: 50%;
+  position:static;
+  display: block;
+  border: 4px outset;
+  left:;
+  text-align: center;
 }
 
 p {     /* Задал шрифт абзацам */
@@ -102,4 +119,11 @@ p {     /* Задал шрифт абзацам */
   src: url("fonts/15695.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
+}
+
+.text{    /* Двигаю текст вниз и задаю ему размер, цвет */
+  color: #666699;
+  font-size: 120%;
+  position: absolute; top: 110%;
+  margin-left: 2%;
 }
