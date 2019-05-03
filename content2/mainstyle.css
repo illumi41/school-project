@@ -60,19 +60,25 @@ a {
   width: 80%;
   height: 100%;
 }
-
+#playlist:hover {
+  transform: scale(1.1);
+}
 #history {
   position: relative;
   width: 80%;
   height: 100%;
 }
-
+#history:hover {
+  transform: scale(1.1);
+}
 #authors {
   position: relative;
   width: 80%;
   height: 100%;
 }
-
+#authors:hover {
+  transform: scale(1.1);
+}
 #Block_2{
   height:50%;
   width:5%;
@@ -100,14 +106,18 @@ a {
   /*border: 4px outset;*/
   margin-top: 100%;
 }
-
+.sc:hover {
+  transform: scale(1.1);
+}
 .yt{
   width: 100%;
   height: 30%;
   position: relative;
   margin-top: 30%;
 }
-
+.yt:hover {
+  transform: scale(1.1);
+}
 @font-face {
   font-family: "Segoe Print";
   src: url("fonts/15695.ttf") format("truetype");
