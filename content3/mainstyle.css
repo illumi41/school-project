@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+   img {
+  max-width: 100%;
+  max-height: 100%;
+}
+  iframe{
+    max-width: 100%;
+    max-height: 100%;
+  }
+body {
+  background-image: url("../images/baackground.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #05040b;
+  margin: 0;
+}
+
+p {
+  font-family: "Segoe Print";
+}
+
+a {
+  font-family: "Segoe Print";
+}
+
+#header {
+}
+
+#content {
+
+}
+
+#Block_1{
+  height:50%;
+  width:27%;
+  position: absolute;
+  word-wrap: break-word;
+  border-color: red;
+}
+
+#lofi_logo {
+  position: relative;
+  width: 50%;
+  height: 20%;
+}
+
+#playlist {
+  position: relative;
+  width: 80%;
+  height: 100%;
+}
+
+#history {
+  position: relative;
+  width: 80%;
+  height: 100%;
+}
+
+#authors {
+  position: relative;
+  width: 80%;
+  height: 100%;
+}
+
+#Block_2{
+  height:50%;
+  width:5%;
+  position: absolute;
+  word-wrap: break-word;
+  right: 3%;
+}
+
+#Block_3{
+  height:13%;
+  width:99%;
+  position: absolute;
+  bottom: 5%;
+  word-wrap: break-word;
+}
+
+#footer {
+
+}
+
+ .sc{
+  width: 100%;
+  height: 30%;
+  position: relative;
+  /*border: 4px outset;*/
+  margin-top: 100%;
+}
+
+.yt{
+  width: 100%;
+  height: 30%;
+  position: relative;
+  margin-top: 30%;
+}
+
+@font-face {
+  font-family: "Segoe Print";
+  src: url("fonts/15695.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
