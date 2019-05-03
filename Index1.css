@@ -9,6 +9,7 @@
   iframe{
     max-width: 100%;
     max-height: 100%;
+
   }
 body {    /* Задаю изначальные параметры для вех элементов сайта и фона */
   background-image: url("images/baackground.gif");
@@ -19,7 +20,7 @@ body {    /* Задаю изначальные параметры для вех 
 }
 
 #Block_1{ /* перемещаю блок Header */
-  height:50%;
+  height:35%;
   width:27%;
   position: absolute;
   word-wrap: break-word;
@@ -85,7 +86,6 @@ body {    /* Задаю изначальные параметры для вех 
 .music {    /* Задаю общие параметры для музыки */
   border: 5px solid #05040b;
   border-radius: 10px;
-
 }
 
         .one {    /* Перемещаю первую песню */
@@ -93,7 +93,6 @@ body {    /* Задаю изначальные параметры для вех 
           height: 100%;
           position: relative;
           left: 5%;
-
         }
 
         .two {    /* Перемещаю вторую песню */
@@ -101,7 +100,6 @@ body {    /* Задаю изначальные параметры для вех 
           height: 100%;
           position: relative;
           left: 10%;
-
         }
 
         .three {    /* Перемещаю третью песню */
@@ -109,7 +107,6 @@ body {    /* Задаю изначальные параметры для вех 
           height: 100%;
           position: relative;
           left: 15%;
-
         }
 
         .four {   /* Перемещаю четвертую песню */
@@ -117,7 +114,6 @@ body {    /* Задаю изначальные параметры для вех 
           height: 100%;
           position: relative;
           left: 20%;
-
         }
 
         .five {   /* Перемещаю пятую песню */
@@ -125,7 +121,6 @@ body {    /* Задаю изначальные параметры для вех 
           height: 100%;
           position: relative;
           left:25%;
-
         }
 
 p {     /* Задал шрифт абзацам */
